@@ -35,3 +35,29 @@ const myfunction =function(){
     console.log("helloworld");
 
 }
+
+///+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++]
+
+//stack(primitive), heap (non-primitive) memory 
+
+let myYoutubename = "gamingcoder"
+
+let anothername =  myYoutubename
+
+anothername ="chaiorcode"
+
+console.log(myYoutubename);
+
+console.log(anothername);
+
+
+let userOne ={
+    name : "chanderveer",
+    upi : "chandu@ypl"
+}
+
+let usertwo = userOne
+
+usertwo.name = "chandu"
+console.log(userOne.name);
+console.log(usertwo.name);
