@@ -18,5 +18,10 @@ console.log(gameName.charAt(0));
 
 console.log(gameName.indexOf('c'));
 
+console.log(typeof gameName);
+
+
+console.log();
+
 
 
