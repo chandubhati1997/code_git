@@ -30,6 +30,16 @@ console.log(it.next().value);
 console.log(it);
 
 
+myarr2.unshift(9)
+
+console.log(myarr2) 
 
 
+myarr2.shift()
+
+console.log(myarr2) 
+
+console.log(myarr2.includes(3));
+
+console.log(myarr2.indexOf(4));
 
